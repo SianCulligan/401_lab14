@@ -1,0 +1,38 @@
+{
+  "name": "401-lab10",
+  "version": "1.0.0",
+  "description": "Project Name: Auth Server Test",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SianCulligan/401-lab10.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SianCulligan/401-lab10/issues"
+  },
+  "homepage": "https://github.com/SianCulligan/401-lab10#readme",
+  "dependencies": {
+    "@code-fellows/supergoose": "^1.0.2",
+    "bcrypt": "^4.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-swagger-generator": "^1.1.17",
+    "jest": "^25.5.0",
+    "swagger": "^0.7.5"
+  },
+  "devDependencies": {}
+}
